@@ -8,3 +8,9 @@ function getComputerChoice() {
         return "scissors" ;
     } 
     } ;
+
+function getHumanChoice() {
+    let choice = prompt("Select your move:")
+    return choice.toLowerCase()
+}
+
