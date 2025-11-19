@@ -49,7 +49,11 @@ function checkScore() {
     }
 }
 
-// function playGame() {
-//     let round = 1;
-//     if (round < 5)
-// }
+function playGame() {
+    let round = 0;
+    for (; round < 5; round++) {
+        playRound(getHumanChoice(), getComputerChoice())
+        
+    }
+    return checkScore();
+}
