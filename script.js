@@ -40,3 +40,16 @@ function playRound(humanChoice, computerChoice) {
 // const computerSelection = getComputerChoice();
 
 // console.log(playRound(humanSelection, computerSelection));
+
+function checkScore() {
+    if (humanScore < computerScore) {
+        return "Computer wins!"
+    } else {
+        return "You win!"
+    }
+}
+
+// function playGame() {
+//     let round = 1;
+//     if (round < 5)
+// }
